@@ -1,0 +1,24 @@
+### # Introduction to Object-Oriented Programming (OOP) in C++
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code around **objects** rather than just functions or logic. Objects represent real-world entities and contain both **data** (attributes) and **functions** (methods) that operate on the data.  
+
+OOP makes programs easier to **understand, maintain, and reuse**.  
+
+---
+
+## **Key Concepts of OOP**
+
+1. **Class**  
+   - A blueprint for creating objects.  
+   - Defines the **attributes** (data members) and **methods** (functions) that the objects will have.  
+
+   ```cpp
+   class Car {
+   public:
+       string brand;
+       int year;
+
+       void start() {
+           cout << brand << " car started." << endl;
+       }
+   };
